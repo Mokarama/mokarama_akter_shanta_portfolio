@@ -12,7 +12,7 @@ const skills = [
   { name: "React", img: "/skills/react.png", path: "/react", color: "rgba(97, 218, 251, 0.8)" },
   { name: "MongoDB", img: "/skills/mongo.png", path: "/mongodb", color: "rgba(71, 162, 72, 0.8)" },
   { name: "PostgreSQL", img: "/skills/PostgreSQL.webp", path: "/postgresql", color: "rgba(51, 103, 145, 0.8)" },
-  { name: "SECURITY", img: "/public/skills/security.png", path: "/security", color: "rgba(100, 116, 139, 0.8)" },
+  { name: "SECURITY", img: "/skills/security.png", path: "/security", color: "rgba(100, 116, 139, 0.8)" },
   { name: "Firebase", img: "/skills/firebase.png", path: "/firebase", color: "rgba(255, 202, 40, 0.8)" },
   { name: "HTML5", img: "/skills/html.png", path: "/html", color: "rgba(227, 79, 38, 0.8)" },
   { name: "CSS3", img: "/skills/css.png", path: "/css", color: "rgba(21, 114, 182, 0.8)" },

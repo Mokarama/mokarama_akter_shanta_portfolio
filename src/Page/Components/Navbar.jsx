@@ -58,7 +58,7 @@ export const Navbar = () => {
           onClick={() => setActiveItem("Home")}
         >
           <span className="relative z-10">
-            <span className="text-glow text-foreground">Tanjilur</span> Portfolio
+            <span className="text-glow text-foreground">Mokarama Akter</span> Shanta
           </span>
         </motion.a>
 

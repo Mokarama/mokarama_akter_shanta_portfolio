@@ -32,7 +32,7 @@ const router = createBrowserRouter([
     
        {
         path:"html",
-         element:<HTML />
+         element:<HTML></HTML>
         },
           {
         path:"css",

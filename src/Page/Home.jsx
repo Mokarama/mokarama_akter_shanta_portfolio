@@ -1,17 +1,17 @@
 import React, { useEffect } from 'react'
 import Lenis from 'lenis'
 import 'lenis/dist/lenis.css'
-import Background from './Components/Background'
-import TheameTogle from './Components/TheameTogle'
-import { Navbar } from './Components/Navbar'
-import HeroSection from './Components/HeroSection'
-import AboutMe from './Components/AboutMe'
-import SkillsSection from './Components/SkillsSection'
-import MyprojectSection from './Components/MyprojectSection'
-import Contacsection from './Components/Contacsection'
-import Findme from './Components/Findme'
-import { Footer } from './Components/Footer'
-import MyEducation from './Components/MyEducation'
+import ThemeToggle from './Components/ThemeToggle'
+import Background from './Components/Background';
+import { Navbar } from './Components/Navbar';
+import HeroSection from './Components/HeroSection';
+import AboutMe from './Components/AboutMe';
+import MyEducation from './Components/MyEducation';
+import SkillsSection from './Components/SkillsSection';
+import MyprojectSection from './Components/MyprojectSection';
+import Findme from './Components/Findme';
+import Contacsection from './Components/Contactsection';
+import { Footer } from './Components/Footer';
 
 const Home = () => {
   useEffect(() => {
@@ -38,7 +38,7 @@ const Home = () => {
 
     {/* theme toggle  */}
    <div className='hidden'>
-      <TheameTogle ></TheameTogle>
+      <ThemeToggle></ThemeToggle>
    </div>
 
     {/* backgrund effects  */}

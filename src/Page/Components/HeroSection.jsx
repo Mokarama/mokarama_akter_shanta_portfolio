@@ -124,8 +124,8 @@ function HeroSection() {
           >
             <div className="absolute inset-0 bg-gradient-to-br from-primary/10 to-transparent rounded-full mt-8 md:mt-0 " />
             <img
-              src="/skills/notime.png"
-              alt="Tanjilur Rahman"
+              src="/skills/shanta.jpg"
+              alt="Shanta"
               className="w-full h-full object-cover object-center "
               style={{ transform: "translateZ(20px)" }}
             />
