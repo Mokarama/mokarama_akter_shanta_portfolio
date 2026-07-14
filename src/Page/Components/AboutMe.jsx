@@ -14,17 +14,17 @@ function AboutMe() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center text-left">
           <div className=" ">
             <h3 className="text-2xl font-semibold pb-4">
-              Passionate  MERN Stack Developer
+              Passionate Full Stack Developer
             </h3>
 
             <p className="text-muted-foreground text-gray-30 pb-8">
-              Hi, I’m Tanjilur Rahman — a passionate web developer with a strong focus on JavaScript Next Js and React. I love building clean, responsive, and user-friendly interfaces that provide a great user experience.
+              Hi, I’m Mokarama Akter Shanta — a passionate web developer with a strong focus on JavaScript Next Js and React. I love building clean, responsive, and user-friendly interfaces that provide a great user experience.
             </p>
             <p className="text-xl font-semibold pb-3">
               My  programming journey
             </p>
             <p className="text-muted-foreground text-gray-300 pb-5">
-              I started learning programming around January 16, 2024. My journey began with the motivation to explore new skills and build useful applications. Initially, I started with my first semester Python book, which gave me a strong foundation in programming logic and basic concepts.
+              I started learning programming around September 29, 2024. My journey began with the motivation to explore new skills and build useful applications. Initially, I started with my first semester Python book, which gave me a strong foundation in programming logic and basic concepts.
 
               After that, I gradually learned web design using HTML and CSS, then moved on to mastering technologies like JavaScript and React. Currently, I am deeply interested in full-stack development and constantly working on new projects to improve my skills and build practical applications.
             </p>
@@ -36,7 +36,7 @@ function AboutMe() {
               </a>
 
               <a
-                href="https://drive.google.com/file/d/1pAfMK7GmTOqYcGmXSkbheUY12RuDBHqL/view?usp=sharing"
+                href="https://drive.google.com/drive/folders/1QAXtyR23mTkKmPoLW2yxe3svBzq4_C2V?usp=sharing"
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
                 download
                 target="_blank"
@@ -88,11 +88,11 @@ function AboutMe() {
                     <div className="w-full sm:w-[50%] space-y-1">
                       <div>
                         <span className="font-semibold text-lg">Phone:</span>
-                        <p className="text-muted-foreground  text-gray-300">+8801867913057</p>
+                        <p className="text-muted-foreground  text-gray-300">+8801577185920</p>
                       </div>
                       <div>
                         <span className="font-semibold text-lg">Email:</span>
-                        <p className="text-muted-foreground  text-gray-300 break-all">trmtanjil02@gmail.com</p>
+                        <p className="text-muted-foreground  text-gray-300 break-all">mokaramaaktershanta@gmail.com</p>
                       </div>
                     </div>
 
@@ -100,7 +100,7 @@ function AboutMe() {
                     <div className="w-full sm:w-[50%] space-y-1">
                       <div className="flex items-center gap-1">
                         <p className="font-semibold text-lg">Name:</p>
-                        <p className="text-muted-foreground  text-gray-300]">Tanjilur Rahman</p>
+                        <p className="text-muted-foreground  text-gray-300]">Mokarama Akter Shanta</p>
                       </div>
                       <div className="flex items-center gap-1">
                         <span className="font-semibold text-lg">Location:</span>
@@ -118,4 +118,4 @@ function AboutMe() {
   )
 }
 
-export default AboutMe
+export default AboutMe;

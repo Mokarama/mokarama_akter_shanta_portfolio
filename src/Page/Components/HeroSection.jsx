@@ -57,7 +57,7 @@ function HeroSection() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.7, delay: 0.2 }}
             >
-              Tanjilur
+             Mokarama Akter
             </motion.span>
             <motion.span
               className="text-gradient ml-2"
@@ -65,7 +65,7 @@ function HeroSection() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.7, delay: 0.4 }}
             >
-              Rahman
+              Shanta
             </motion.span>
           </h1>
 
@@ -75,7 +75,7 @@ function HeroSection() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.6 }}
           >
-           <span className="text-primary">|</span> MERN Stack Developer
+           <span className="text-primary">|</span> Full  Stack Developer
           </motion.h2>
 
           <motion.p
@@ -147,7 +147,7 @@ function HeroSection() {
           <div className="flex md:flex-col items-center justify-center gap-4   ml-8 mt-6 md:mt-0 flex-row pb-3">
             
             <a
-              href="https://github.com/trmtanjil"
+              href="https://github.com/Mokarama"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-blue-950-500 p-3 rounded-full text-blacka bg-blue-700 hover:scale-110 transition-transform"
@@ -155,7 +155,7 @@ function HeroSection() {
               <Github />
             </a>
             <a
-              href="https://www.linkedin.com/in/trm-tanjil/"
+              href="https://www.linkedin.com/in/mokarama-akter-shanta"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-blue-700 p-3 rounded-full text-white hover:scale-110 transition-transform"
@@ -163,7 +163,7 @@ function HeroSection() {
               <FaLinkedinIn />
             </a>
             <a
-              href="https://web.facebook.com/profile.php?id=100091248537794"
+              href="https://www.facebook.com/profile.php?id=61590615397809"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-blue-600 p-3 rounded-full text-white hover:scale-110 transition-transform"

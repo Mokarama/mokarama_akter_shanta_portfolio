@@ -17,7 +17,10 @@ function Contacsection() {
     event.preventDefault();
     const formData = new FormData(event.target);
 
-    formData.append("access_key", "b9563cb5-f125-4f7a-a23b-8a1809ae2520");
+  formData.append(
+  "access_key",
+  import.meta.env.VITE_WEB3FORMS_ACCESS_KEY
+);
 
     const object = Object.fromEntries(formData);
     const json = JSON.stringify(object);
@@ -42,9 +45,6 @@ function Contacsection() {
     }
   };
  
-
-   
-
   return (
     <section id="contact" className="pt-[70px] px-4 relative bg-secondary/30 text-left">
       <div className="container mx-auto  ">

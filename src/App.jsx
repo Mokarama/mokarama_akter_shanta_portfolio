@@ -1,17 +1,16 @@
-
-import './App.css'
-
-function App() {
+import { BrowserRouter, Routes, Route } from "react-router";   
+import Home from "./Page/Home";
  
-
+function App() {
   return (
-    <>
+ 
+      <Routes>
+        <Route index element={<Home />} />
+        <Route path="*" element={<div>Page Not Found</div>} />
+      </Routes>
+ 
     
-    <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
-    </>
-  )
+  );
 }
 
-export default App
+export default App;
