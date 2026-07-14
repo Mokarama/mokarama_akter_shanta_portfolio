@@ -1,8 +1,12 @@
-import { ArrowDown, Github } from "lucide-react";
+
+import { ArrowDown} from "lucide-react";
 import { motion, useMotionValue } from "framer-motion";
 import { useState } from "react";
 import { FaFacebookF, FaLinkedinIn } from "react-icons/fa";
  
+
+
+
 
 function HeroSection() {
   const [isHovering, setIsHovering] = useState(false);
@@ -152,7 +156,7 @@ function HeroSection() {
               rel="noopener noreferrer"
               className="bg-blue-950-500 p-3 rounded-full text-blacka bg-blue-700 hover:scale-110 transition-transform"
             >
-              <Github />
+             {/* git icon dite hobe? */}
             </a>
             <a
               href="https://www.linkedin.com/in/mokarama-akter-shanta"

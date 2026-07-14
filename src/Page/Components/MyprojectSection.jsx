@@ -1,6 +1,7 @@
 import React from "react";
 import Swal from "sweetalert2";
-import { ArrowRight, ExternalLink, Github } from "lucide-react";
+import { ArrowRight, ExternalLink } from "lucide-react";
+import { FiGithub } from "react-icons/fi";
 
 const projects = [
   {
@@ -52,7 +53,7 @@ Medicare Shop is a modern e-commerce platform specifically designed for selling 
     image: "https://i.ibb.co.com/G45q8zdK/Screenshot-74.png",
     tags: ["React.js", "React Router", "Tailwind CSS", "DaisyUI", "React Hook Form", "Axios", "SweetAlert2", " React Motion", " Chart.js"],
     demoUrl: "https://effortless-froyo-5b0e47.netlify.app/",
-    githubUrl: "https://github.com/trmtanjil/tutor-hub-clind",
+    githubUrl: "https://github.com/mokarama",
     detailsImg: [
       "   https://i.ibb.co.com/XkXwyGZW/Screenshot-96.png",
       "https://i.ibb.co.com/B5m12T0n/Screenshot-97.png",
@@ -192,7 +193,7 @@ function MyprojectSection() {
                       rel="noopener noreferrer"
                     >
                       <p>Frontend</p>
-                      <Github size={20} />
+                      {/* <Github size={20} /> */}
                     </a>
                     <a
                       href={project.githubUrlback}
@@ -201,7 +202,7 @@ function MyprojectSection() {
                       rel="noopener noreferrer"
                     >
                       <p>Backend</p>
-                      <Github size={20} />
+                      <FiGithub size={20} />
                     </a>
                   </div>
                 </div>

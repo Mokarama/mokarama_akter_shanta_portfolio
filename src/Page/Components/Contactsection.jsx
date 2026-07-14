@@ -1,14 +1,18 @@
+
 import {
-  Github,
-  Linkedin,
   Mail,
   MapPin,
   Phone,
   Send,
 } from "lucide-react";
+
+
 import { cn } from "@/lib/utils";
 import Swal from "sweetalert2";
- 
+// import { FaGithub, FaLinkedin } from "react-icons/fa";
+
+
+
 
 function Contacsection() {
 
@@ -72,7 +76,7 @@ function Contacsection() {
                     href="mailto:hello@gmail.com"
                     className="text-muted-foreground hover:text-primary transition-colors text-gray-300"
                   >
-                  trmtanjil02@gmail.com
+                  mokaramaaktershanta@gmail.com
                   </a>
                 </div>
               </div>
@@ -87,7 +91,7 @@ function Contacsection() {
                     href="tel:+11234567890"
                     className="text-muted-foreground hover:text-primary transition-colors text-gray-300"
                   >
-                    +880 1867913057
+                    +880 1577185920
                   </a>
                 </div>
               </div>
@@ -99,7 +103,7 @@ function Contacsection() {
                 <div>
                   <h4 className="font-medium"> Location</h4>
                   <p className="text-muted-foreground hover:text-primary transition-colors text-gray-300">
-                    Narsigndi, Dhaka, Bangladesh
+                   Dhaka, Bangladesh
                   </p>
                 </div>
               </div>
@@ -109,15 +113,15 @@ function Contacsection() {
               <h4 className="font-medium mb-4 text-left"> Connect With Me</h4>
               <div className="flex space-x-4  ">
                 <a
-                  href="https://www.linkedin.com/in/trm-tanjil/"
+                  href="https://www.linkedin.com/in/mokarama-akter-shanta"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <Linkedin />
+                 {/* <FaLinkedin size={22} /> */}
                 </a>
-                <a href="https://github.com/trmtanjil" 
+                <a href="https://github.com/Mokarama" 
                 target="_blank" rel="noopener noreferrer">
-                  <Github />
+                 {/* <FaGithub size={22} /> */}
                 </a>
               </div>
             </div>

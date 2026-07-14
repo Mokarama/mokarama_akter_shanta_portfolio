@@ -12,6 +12,7 @@ import MyprojectSection from './Components/MyprojectSection';
 import Findme from './Components/Findme';
 import Contacsection from './Components/Contactsection';
 import { Footer } from './Components/Footer';
+import ServicesSection from './Components/ServicesSection';
 
 const Home = () => {
   useEffect(() => {
@@ -54,6 +55,7 @@ const Home = () => {
         <AboutMe></AboutMe>
         <MyEducation></MyEducation>
         <SkillsSection></SkillsSection>
+        <ServicesSection></ServicesSection>
         <MyprojectSection></MyprojectSection>
         <Findme></Findme>
         <Contacsection></Contacsection>

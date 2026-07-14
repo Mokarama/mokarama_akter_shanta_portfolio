@@ -1,20 +1,21 @@
 
 
 import { createBrowserRouter } from "react-router";
-import Home from "../Page/Home.jsx";
-import HTML from "../page/TechnologyDetails/HTML/HTML.jsx";
-import CSS from "../Page/TechnologyDetails/CSS/CSS.jsx";
-import Javascript from "../Page/TechnologyDetails/javascript/Javascript.jsx";
-import Dsa from "../Page/TechnologyDetails/DSA/Dsa.jsx";
-import Express from "../Page/TechnologyDetails/express/Express.jsx";
-import Firebase from "../Page/TechnologyDetails/firebase/Firebase.jsx";
-import Reacte from "../Page/TechnologyDetails/react/Reacte.jsx";
-import Nextjs from "../Page/TechnologyDetails/nextjs/Nextjs.jsx";
+import Home from "../Page/Home";
+import HTML from "../Page/TechnologyDetails/HTML/HTML";
+import CSS from "../Page/TechnologyDetails/CSS/CSS";
+import Javascript from "../Page/TechnologyDetails/javascript/Javascript";
+import Reacte from "../Page/TechnologyDetails/react/Reacte";
+import Nextjs from "../Page/TechnologyDetails/next.js/Nextjs.jsx";
 import Mongodb from "../Page/TechnologyDetails/mongodb/Mongodb.jsx";
 import Postgresql from "../Page/TechnologyDetails/postgresql/Postgresql.jsx";
 import Tailwind from "../Page/TechnologyDetails/tailwind/Tailwind.jsx";
-import PrismaOrm from "../Page/TechnologyDetails/PrismaOrm/PrismaOrm.jsx";
+import Firebase from "../Page/TechnologyDetails/firebase/Firebase.jsx";
+import Express from "../Page/TechnologyDetails/express/Express.jsx";
+import Dsa from "../Page/TechnologyDetails/DSA/Dsa.jsx";
+import PrismaOrm from "../Page/TechnologyDetails/prismaOrm/PrismaOrm.jsx";
 import Security from "../Page/TechnologyDetails/Security/Security.jsx";
+
  
  
 
@@ -36,53 +37,53 @@ const router = createBrowserRouter([
         },
           {
         path:"css",
-         element:<CSS />
+         element:<CSS></CSS>
         },
            {
         path:"javascript",
-         element:<Javascript />
+         element:<Javascript/>
         },
            {
         path:"react",
-         element:<Reacte />
+         element:<Reacte/>
         },
            {
         path:"nextjs",
-         element:<Nextjs />
+         element:<Nextjs/>
         },
            {
         path:"mongodb",
-         element:<Mongodb />
+         element:<Mongodb/>
         },
        
            {
         path:"postgresql",
-         element:<Postgresql />
+         element:<Postgresql/>
         },
            {
         path:"tailwind",
-         element:<Tailwind />
+         element:<Tailwind/>
         },
         
            {
         path:"firebase",
-         element:<Firebase />
+         element:<Firebase/>
         },
            {
         path:"express",
-         element:<Express />
+         element:<Express/>
         },
           {
         path:"dsa",
-         element:<Dsa />
+         element:<Dsa/>
         },
            {
         path:"prisma",
-         element:<PrismaOrm />
+         element:<PrismaOrm/>
         },
             {
         path:"security",
-         element:<Security />
+         element:<Security/>
         },
         
         
@@ -91,4 +92,4 @@ const router = createBrowserRouter([
   },
 ]);
 
-export default router
+export default router;
