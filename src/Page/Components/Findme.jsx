@@ -2,7 +2,7 @@ import React from 'react'
 import { motion } from "framer-motion";
 
 const mylinks = [
-  { name: "React", img: "/skills/github.png", color: "rgba(97, 218, 251, 0.8)", url: "https://github.com/Mokarama" },
+  { name: "Github", img: "/skills/github.png", color: "rgba(97, 218, 251, 0.8)", url: "https://github.com/Mokarama" },
   { name: "LinkdIn", img: "/skills/linkdin.png", color: "rgba(0, 0, 0, 0.8)", url: "https://www.linkedin.com/in/mokarama-akter-shanta" },
   { name: "Facebook", img: "/skills/facebook.png", color: "rgba(77, 194, 116, 0.8)", url: "https://www.facebook.com/profile.php?id=61590615397809" },
 ];
