@@ -38,7 +38,7 @@ const Home = () => {
  text-white text-foreground overflow-x-hidden '> 
 
     {/* theme toggle  */}
-   <div className='hidden'>
+   <div>
       <ThemeToggle></ThemeToggle>
    </div>
 

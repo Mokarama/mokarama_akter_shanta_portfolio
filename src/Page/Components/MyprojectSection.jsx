@@ -6,21 +6,22 @@ import { FiGithub } from "react-icons/fi";
 const projects = [
   {
     id: 4,
-    title: "Medicare ",
+    title: "Foodhub",
     description:
-      "Medicare Shop is a state-of-the-art and professional multi-vendor online pharmacy platform. It is designed in such a way that users can easily find medicines and healthcare products and admins can control the entire system.",
-    details: `Medicare Shop - Full-Stack Online Pharmacy Platform
-Medicare Shop is a modern e-commerce platform specifically designed for selling medicines and healthcare products. It follows a Role-Based Access Control (RBAC) system, with separate dashboards and functionalities for admin, sellers, and customers.`,
-    image: "/projectimage/medicare.png",
+     "FoodHub is a modern and user-friendly online food ordering platform. It is designed so that customers can easily browse restaurants, order their favorite meals, and enjoy a fast and seamless food delivery experience.",
+
+    details: `FoodHub - Full-Stack Online Food Ordering Platform
+FoodHub is a modern multi-vendor food ordering platform designed for restaurants and customers. It follows a Role-Based Access Control (RBAC) system, with separate dashboards and functionalities for admin, restaurant owners, and customers.`,
+    image: "/projectimage/foodhub.png",
     tags: ["Next.js", "TypeScript", "better auth", "Tailwind CSS", "shadcn/ui", "lucide react", "fremer motion",],
     tagsback: ["Node.js", "Express.js", "TypeScript", "prisma", "postgresql", "better auth", "Dotenv", "CORS"],
-    demoUrl: "https://next-js-frontend-ass-4.vercel.app/",
-    githubUrl: "https://github.com/trmtanjil/NextJs-frontend-ass-4",
-    githubUrlback: "https://github.com/trmtanjil/medicareshope",
+    demoUrl: "https://foodhub-frontend-orcin.vercel.app/",
+    githubUrl: "https://github.com/Mokarama/foodhub-frontend.git",
+    githubUrlback: "https://github.com/Mokarama/foodhub-backend.git",
     detailsImg: [
-      "projectimage/medicare1.png",
-      "projectimage/medicare2.png",
-      "projectimage/medicare3.png",
+      "projectimage/foodhub3.png",
+      "projectimage/foodhub4.png",
+      "projectimage/foodhub3.png",
       "projectimage/medicare4.png",
     ],
   },
@@ -33,8 +34,8 @@ Medicare Shop is a modern e-commerce platform specifically designed for selling 
     image: "https://i.ibb.co.com/39XZGF08/Screenshot-62.png",
     tags: ["React.js", "React Router", "Tailwind CSS", "DaisyUI", "React Hook Form", "Axios", "SweetAlert2", " React Motion", " Chart.js", "Recharts"],
     tagsback: ["Node.js", "Express.js", "MongoDB", "Native Driver", "Dotenv", "CORS", " imgbb API", "JWT"],
-    demoUrl: "https://scholership-app97.netlify.app/",
-    githubUrl: "https://github.com/trmtanjil/scholarship-hub#",
+    demoUrl: "",
+    githubUrl: "",
     detailsImg: [
       "https://i.ibb.co.com/KjcJxBf7/Screenshot-89-Copy.png",
       "https://i.ibb.co.com/0jGNX4w7/Screenshot-90.png",
@@ -52,33 +53,33 @@ Medicare Shop is a modern e-commerce platform specifically designed for selling 
     details: `This app lets students search for tutors by subject and location. Tutors can register and manage their profiles. Features include search filters, booking system, and responsive UI.`,
     image: "https://i.ibb.co.com/G45q8zdK/Screenshot-74.png",
     tags: ["React.js", "React Router", "Tailwind CSS", "DaisyUI", "React Hook Form", "Axios", "SweetAlert2", " React Motion", " Chart.js"],
-    demoUrl: "https://effortless-froyo-5b0e47.netlify.app/",
-    githubUrl: "https://github.com/mokarama",
+    demoUrl: "",
+    githubUrl: "",
     detailsImg: [
       "   https://i.ibb.co.com/XkXwyGZW/Screenshot-96.png",
       "https://i.ibb.co.com/B5m12T0n/Screenshot-97.png",
       "https://i.ibb.co.com/VYHSbCPG/Screenshot-98.png",
     ],
   },
-  {
-    id: 3,
-    title: "E-commerce Platform",
-    description:
-      "Roomet Finder is a user-friendly web application that helps individuals find compatible roommates based on location, budget, and preferences",
-    details: `Roomet Finder helps users find roommates matching their budget and preferences. Users can create profiles, browse listings, and communicate with potential roommates.`,
-    image: "https://i.ibb.co.com/q39n7kg7/Screenshot-75.png",
-    tags: ["React.js", "React Router", "Tailwind CSS", "DaisyUI", "SweetAlert2", " React Motion", " Chart.js"],
-    demoUrl: "https://my-first-shopiffy.myshopify.com/",
-    githubUrl: "https://github.com/trmtanjil/rommet-finder-clind",
-    detailsImg: [
-      "https://ibb.co.com/C5pfK4Yv",
-      "https://ibb.co.com/4ZVyfvQq",
-      "https://ibb.co.com/YTWSNR63",
-      "https://ibb.co.com/4kdx1kB",
-      "https://ibb.co.com/YB0514C9",
-      "https://ibb.co.com/bhM60NN",
-    ],
-  },
+  // {
+  //   id: 3,
+  //   title: "E-commerce Platform",
+  //   description:
+  //     "Roomet Finder is a user-friendly web application that helps individuals find compatible roommates based on location, budget, and preferences",
+  //   details: `Roomet Finder helps users find roommates matching their budget and preferences. Users can create profiles, browse listings, and communicate with potential roommates.`,
+  //   image: "https://i.ibb.co.com/q39n7kg7/Screenshot-75.png",
+  //   tags: ["React.js", "React Router", "Tailwind CSS", "DaisyUI", "SweetAlert2", " React Motion", " Chart.js"],
+  //   demoUrl: "",
+  //   githubUrl: "",
+  //   detailsImg: [
+  //     "https://ibb.co.com/C5pfK4Yv",
+  //     "https://ibb.co.com/4ZVyfvQq",
+  //     "https://ibb.co.com/YTWSNR63",
+  //     "https://ibb.co.com/4kdx1kB",
+  //     "https://ibb.co.com/YB0514C9",
+  //     "https://ibb.co.com/bhM60NN",
+  //   ],
+  // },
 ];
 
 function MyprojectSection() {
@@ -215,7 +216,7 @@ function MyprojectSection() {
           <a
             className="cosmic-button w-fit flex items-center mx-auto gap-2"
             target="_blank"
-            href="https://github.com/trmtanjil"
+            href="https://github.com/Mokarama"
           >
             Check My Github <ArrowRight size={16} />
           </a>

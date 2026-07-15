@@ -3,18 +3,19 @@ import React from "react";
 function MyEducation() {
   const educationData = [
     {
-      title: "Complete Web Development Course",
+      title: "Complete Web Development Course(L-2)",
       institution: "Programming Hero",
-      year: "2025",
+      year: "2026",
     },
     {
-      title: "Diploma in CST",
-      institution: "Narsingdi Government Polytechnic Institute",
-      details: "CST 6th Semester (Running)",
+      title: "Bachelor of Arts (Honours) in Bangla",
+      institution: "National University, Bangladesh",
+      details: "📅 2026",
     },
     {
       title: "HSC (2022-23)",
-      institution: "Fakamara Degree Madrasah (Katiyadi, Kishorgang)",
+      institution: "Kishoreganj Government Mohila College",
+      details: "📅 2020",
     },
   ];
 
@@ -35,7 +36,7 @@ function MyEducation() {
         </div>
 
         {/* Right Side - Education Details */}
-        <div className="flex-1">
+        <div className="md:flex-1  w-full">
         
           <div className="grid gap-6">
             {educationData.map((edu, index) => (
