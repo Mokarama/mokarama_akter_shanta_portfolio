@@ -27,15 +27,31 @@ FoodHub is a modern multi-vendor food ordering platform designed for restaurants
   },
   {
     id: 1,
-    title: "scholarship-hub",
+    title: "Gladiator E-Commerce",
     description:
-      "This website is designed for students, where they can find, apply for, and track their applications to different national and international scholarships",
+      "A modern full-stack e-commerce platform where users can browse products, manage their shopping experience, and securely authenticate through a responsive and intuitive interface.",
     details: `This is a full-stack scholarship management platform that allows students to search for scholarships worldwide, apply online, track application status, and receive notifications. Features include user authentication, admin dashboard, and Stripe payment integration.`,
-    image: "https://i.ibb.co.com/39XZGF08/Screenshot-62.png",
-    tags: ["React.js", "React Router", "Tailwind CSS", "DaisyUI", "React Hook Form", "Axios", "SweetAlert2", " React Motion", " Chart.js", "Recharts"],
-    tagsback: ["Node.js", "Express.js", "MongoDB", "Native Driver", "Dotenv", "CORS", " imgbb API", "JWT"],
-    demoUrl: "",
-    githubUrl: "",
+    image: "/projectimage/gladiator.png",
+    tags: ["React.js",
+    "React Router",
+    "CSS Modules",
+    "Vite",
+    "Axios",
+    "React Context API",
+    "Lucide React",
+    "Lazy Loading",
+    "Responsive Design"],
+    tagsback: [ "Node.js",
+    "Express.js",
+    "PostgreSQL",
+    "Prisma ORM",
+    "JWT Authentication",
+    "bcrypt",
+    "CORS",
+    "Dotenv"],
+    demoUrl: "https://gladiators-e-commerce-client.vercel.app/",
+    githubUrl: "https://github.com/Mokarama/gladiators-e-commerce-client.git",
+    githubUrlback: "https://github.com/Mokarama/gladiator-e-commerce-server.git",
     detailsImg: [
       "https://i.ibb.co.com/KjcJxBf7/Screenshot-89-Copy.png",
       "https://i.ibb.co.com/0jGNX4w7/Screenshot-90.png",
@@ -199,7 +215,7 @@ function MyprojectSection() {
                     <a
                       href={project.githubUrlback}
                       target="_blank"
-                      className="text-foreground/80 hover:text-primary transition-colors duration-300"
+                      className="text-foreground/80 hover:text-primary transition-colors duration-300 flex gap-3"
                       rel="noopener noreferrer"
                     >
                       <p>Backend</p>
