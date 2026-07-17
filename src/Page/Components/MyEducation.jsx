@@ -13,7 +13,7 @@ function MyEducation() {
       details: "📅 2026",
     },
     {
-      title: "HSC (2022-23)",
+      title: "HSC ",
       institution: "Kishoreganj Government Mohila College",
       details: "📅 2020",
     },
