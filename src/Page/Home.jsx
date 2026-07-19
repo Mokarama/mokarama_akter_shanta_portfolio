@@ -13,7 +13,7 @@ import Findme from './Components/Findme';
 import Contacsection from './Components/Contactsection';
 import { Footer } from './Components/Footer';
 import ServicesSection from './Components/ServicesSection';
-import Certifications from './Components/Certifications';
+
 
 
 const Home = () => {
@@ -58,7 +58,6 @@ const Home = () => {
         <MyEducation></MyEducation>
         <SkillsSection></SkillsSection>
         <ServicesSection></ServicesSection>
-        {/* <Certifications/> */}
         <MyprojectSection></MyprojectSection>
         <Findme></Findme>
         <Contacsection></Contacsection>
