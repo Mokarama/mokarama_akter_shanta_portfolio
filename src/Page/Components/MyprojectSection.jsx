@@ -4,28 +4,7 @@ import { ArrowRight, ExternalLink } from "lucide-react";
 import { FiGithub } from "react-icons/fi";
 
 const projects = [
-  {
-    id: 4,
-    title: "Foodhub",
-    description:
-     "FoodHub is a modern and user-friendly online food ordering platform. It is designed so that customers can easily browse restaurants, order their favorite meals, and enjoy a fast and seamless food delivery experience.",
-
-    details: `FoodHub - Full-Stack Online Food Ordering Platform
-FoodHub is a modern multi-vendor food ordering platform designed for restaurants and customers. It follows a Role-Based Access Control (RBAC) system, with separate dashboards and functionalities for admin, restaurant owners, and customers.`,
-    image: "/projectimage/foodhub.png",
-    tags: ["Next.js", "TypeScript", "better auth", "Tailwind CSS", "shadcn/ui", "lucide react", "fremer motion",],
-    tagsback: ["Node.js", "Express.js", "TypeScript", "prisma", "postgresql", "better auth", "Dotenv", "CORS"],
-    demoUrl: "https://foodhub-frontend-orcin.vercel.app/",
-    githubUrl: "https://github.com/Mokarama/foodhub-frontend.git",
-    githubUrlback: "https://github.com/Mokarama/foodhub-backend.git",
-    detailsImg: [
-      "projectimage/foodhub3.png",
-      "projectimage/foodhub4.png",
-      "projectimage/foodhub3.png",
-      "projectimage/medicare4.png",
-    ],
-  },
-  {
+   {
     id: 1,
     title: "Gladiator E-Commerce",
     description:
@@ -61,6 +40,28 @@ FoodHub is a modern multi-vendor food ordering platform designed for restaurants
       "https://i.ibb.co.com/yTcN9gg/Screenshot-95.png",
     ],
   },
+  {
+    id: 4,
+    title: "Foodhub",
+    description:
+     "FoodHub is a modern and user-friendly online food ordering platform. It is designed so that customers can easily browse restaurants, order their favorite meals, and enjoy a fast and seamless food delivery experience.",
+
+    details: `FoodHub - Full-Stack Online Food Ordering Platform
+FoodHub is a modern multi-vendor food ordering platform designed for restaurants and customers. It follows a Role-Based Access Control (RBAC) system, with separate dashboards and functionalities for admin, restaurant owners, and customers.`,
+    image: "/projectimage/foodhub.png",
+    tags: ["Next.js", "TypeScript", "better auth", "Tailwind CSS", "shadcn/ui", "lucide react", "fremer motion",],
+    tagsback: ["Node.js", "Express.js", "TypeScript", "prisma", "postgresql", "better auth", "Dotenv", "CORS"],
+    demoUrl: "https://foodhub-frontend-orcin.vercel.app/",
+    githubUrl: "https://github.com/Mokarama/foodhub-frontend.git",
+    githubUrlback: "https://github.com/Mokarama/foodhub-backend.git",
+    detailsImg: [
+      "projectimage/foodhub3.png",
+      "projectimage/foodhub4.png",
+      "projectimage/foodhub3.png",
+      "projectimage/medicare4.png",
+    ],
+  },
+ 
   {
     id: 2,
     title: "Tutor Finder web",

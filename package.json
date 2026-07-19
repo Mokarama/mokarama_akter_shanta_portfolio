@@ -10,6 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@egjs/flicking-plugins": "^4.8.1",
+    "@egjs/react-flicking": "^4.16.5",
     "@tailwindcss/vite": "^4.3.2",
     "clsx": "^2.1.1",
     "framer-motion": "^12.42.2",
